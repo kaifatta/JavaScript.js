@@ -20,9 +20,41 @@ const bigNumber = 34343434344n
 
 // Array, Objects, Functions
 
-const heros = ["superman", "naagraj", "doga"]
+const heros = ["superman", "naagraj", "doga"];
 let myObj = {
     name: "kaif",
     age: "19",
 }
 
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof anotherId);
+
+
+// ++++++++++++++++++++++++++++++++++++++++
+
+// Memory
+
+// Stack (use in primitive datatype), Heap (use in non primitive datatype)
+
+let myYoutubename = "codingworld"
+
+let anothername = myYoutubename
+anothername = "mathscode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "username@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "kaif@gogle.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
